@@ -10,6 +10,8 @@
 		CDCB905E210F3DD80040E6DF /* RMScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCB9054210F3DD80040E6DF /* RMScrollView.framework */; };
 		CDCB9063210F3DD80040E6DF /* RMScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB9062210F3DD80040E6DF /* RMScrollViewTests.swift */; };
 		CDCB9065210F3DD80040E6DF /* RMScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCB9057210F3DD80040E6DF /* RMScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDCB9070210F3E530040E6DF /* RMScrollContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB906E210F3E530040E6DF /* RMScrollContentView.swift */; };
+		CDCB9071210F3E530040E6DF /* RMScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB906F210F3E530040E6DF /* RMScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		CDCB905D210F3DD80040E6DF /* RMScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCB9062210F3DD80040E6DF /* RMScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMScrollViewTests.swift; sourceTree = "<group>"; };
 		CDCB9064210F3DD80040E6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCB906E210F3E530040E6DF /* RMScrollContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMScrollContentView.swift; sourceTree = "<group>"; };
+		CDCB906F210F3E530040E6DF /* RMScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		CDCB9056210F3DD80040E6DF /* RMScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				CDCB906F210F3E530040E6DF /* RMScrollView.swift */,
+				CDCB906E210F3E530040E6DF /* RMScrollContentView.swift */,
 				CDCB9057210F3DD80040E6DF /* RMScrollView.h */,
 				CDCB9058210F3DD80040E6DF /* Info.plist */,
 			);
@@ -194,6 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCB9071210F3E530040E6DF /* RMScrollView.swift in Sources */,
+				CDCB9070210F3E530040E6DF /* RMScrollContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +397,7 @@
 		CDCB906C210F3DD80040E6DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J75BAL8J9W;
 				INFOPLIST_FILE = RMScrollViewTests/Info.plist;
@@ -407,6 +416,7 @@
 		CDCB906D210F3DD80040E6DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J75BAL8J9W;
 				INFOPLIST_FILE = RMScrollViewTests/Info.plist;
